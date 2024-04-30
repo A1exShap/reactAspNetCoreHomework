@@ -1,0 +1,14 @@
+bin/
+obj/
+.vs/
+.idea/
+.run/
+packages/
+*.user
+/.sonarqube
+/.idea/**
+*.editorconfig
+*.DotSettings.user
+*.DotSettings
+*.binlog
+*.iml
