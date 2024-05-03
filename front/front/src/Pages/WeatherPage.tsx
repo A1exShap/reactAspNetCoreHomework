@@ -19,7 +19,7 @@ function WeatherPage() {
   const [weatherData, setWeatherData] = useState<WeatherData[] | null>(null);
 
   const getWeatherData = () => {
-    axios.get(`/WeatherForecast`)
+    axios.get(`${process.env.REACT_APP_BACK_URL}/WeatherForecast`)
       .then(res => {
         setError(null);
         setWeatherData(res.data);
